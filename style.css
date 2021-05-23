@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 428px;
+  height: 926px;
+  background: #fff;
+}
+
+      .barra{
+        width: 432px;
+        height: 96px;
+        background: #5d7cff;
+        box-shadow: 0px 5px 6px rgba(10, 27, 98, 0.71);
+      }
+        /*redonda del medio*/
+      .icono_principal{
+        width: 80px;
+        height: 80px;
+        background: #b7c5ff;
+        border-radius: 50rem;
+        margin-left: 36%;
+        margin-top: -48px;
+      }
+
+.texto_introduccion{
+  position: absolute;
+  width: 344px;
+  height: 88px;
+  margin:40px;
+}
+      h1{
+        position: relative;
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: left;
+        color: #707070;
+      }
+      h2{
+        position: relative;
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: left;
+        color: #707070;
+        top: 15px;
+      }
+
+      p{
+        position: relative;
+        font-family: Raleway;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: left;
+        color: #5d7cff;
+        top:20px;
+      }
+
+.menu{
+  width: 380px;
+  height: 21px;
+  display: inline-flex;
+/*quitar punto al li*/
+  list-style: none;
+  margin-top: 67px;
+  margin-left: 5%;
+  /*espacio entre li-li*/
+    flex-wrap: wrap;
+    grid-gap: 172px;
+}
+      li{
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        margin-left:1rem;
+
+      }
