@@ -7,17 +7,18 @@ body{
   width: 428px;
   height: 926px;
   background: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 
       .barra{
-        width: 432px;
+        width: 100%;
         height: 96px;
         background: #5d7cff;
         box-shadow: 0px 5px 6px rgba(10, 27, 98, 0.71);
       }
         /*redonda del medio*/
       .icono_principal{
-        width: 80px;
+        width: 18.692%;
         height: 80px;
         background: #b7c5ff;
         border-radius: 50rem;
@@ -69,14 +70,14 @@ body{
   margin-left: 5%;
   /*espacio entre li-li*/
     flex-wrap: wrap;
-    grid-gap: 172px;
+    grid-gap: 40.187%;
 }
       li{
         font-family: Raleway;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 1.125rem;
         text-align: center;
         color: #fff;
-        margin-left:1rem;
+        margin-left:3.738%;
 
       }
